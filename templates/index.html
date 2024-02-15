@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student placement predictor</title>
+    <link rel="stylesheet", type="text/css", href="{{url_for('static', filename='styles.css')}}">
+</head>
+<body>
+
+        <div align="center">
+        <div class="rect">
+            <br>
+            <h1>Student Placement Predictor</h1>
+            <form method="post" action="/predict">
+                <label>CGPA</label>
+                <input type="text", name="cgpa">
+
+                <label>IQ</label>
+                <input type="text", name="iq">
+
+                <label>Profile Score</label>
+                <input type="text", name="profile_score">
+
+                <input type="submit", name="value">
+            </form>
+            
+            {% if result %}
+                <p>{{result}}</p>
+            {% endif %}
+
+        </div>
+        </div>
+
+
+</body>
+</html>
+

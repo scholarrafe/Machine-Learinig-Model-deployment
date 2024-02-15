@@ -1,0 +1,6 @@
+
+install  python : sudo apt install python3
+inatall pip : sudo apt-get update && sudo apt-get install python3-pip
+install requirements : pip3 install -r requirement.txt
+
+running command : python3 app.py

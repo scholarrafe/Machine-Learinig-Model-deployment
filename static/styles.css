@@ -1,0 +1,71 @@
+
+
+body {
+	margin: 0;
+	height: 30pc;
+	background-color: #325B79;
+    background-image: url("river_view.jpg");
+    
+}
+
+.rect{
+    height: 30pc;
+    width: 32pc;
+    margin: 3%;
+    opacity: 0.8;
+    background-color: #97165b;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: #ccc;
+}
+
+p {
+    text-align: center;
+    color: #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+input[type="text"] {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-color: #97165b;
+}
+
+input[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    background-color: #b182a4;
+    color: #310606;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #18aaac;
+}

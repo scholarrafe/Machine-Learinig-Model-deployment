@@ -3,4 +3,7 @@
 Type : Web Application \
 Framework : Python Flask\
 Deployment Server : AWS Cloud Server\
-Objective : Machine Learning Model
+Operating System : Ubuntu\
+File Transfer : Winscp\
+Cloud Command Prompt Tool : PuTTy\
+Objective : Machine Learning Model \
